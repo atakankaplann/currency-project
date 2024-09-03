@@ -1,0 +1,191 @@
+
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00ba51;
+}
+
+h3 {
+
+  text-align: center;
+  font-size:1.5em;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.2em;
+  color: #2e8b57;
+  margin-top: 20px;
+}
+
+.dropdown-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+input[type="number"], select {
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00ba51;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #00ba51;
+}
+
+.calculator-container {
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.calculator-container label {
+  margin: 10px 0;
+  font-weight: bold;
+  width: 100%;
+  max-width: 300px;
+}
+
+.calculator-container input[type="number"],
+.calculator-container select {
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.calculator-container .radio-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.calculator-container .radio-group label {
+  font-weight: normal;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.calculator-container button {
+  padding: 10px 20px;
+  background-color: #00ba51;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  max-width: 150px;
+}
+
+.calculator-container button:hover {
+  background-color: #3c9d70;
+}
+
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.weather-card {
+  background-color: #e0f7ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px 10px;
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+  transition: transform 0.3s;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.weather-card img {
+  width: 60px;
+  height: 60px;
+}
+
+.weather-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.weather-card .temp {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+}
+
+
